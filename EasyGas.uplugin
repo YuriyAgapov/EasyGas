@@ -1,0 +1,39 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.1.0",
+	"FriendlyName": "EasyGas",
+	"Description": "",
+	"Category": "Editor",
+	"CreatedBy": "Yuriy Agapov",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"SupportURL": "",
+	"EngineVersion": "5.6.0",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "EasyGasEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PreDefault",
+			"AdditionalDependencies": [
+				"Engine",
+				"GameplayAbilities",
+				"GameplayAbilitiesEditor"
+			]
+		},
+		{
+			"Name": "EasyGasGraphEditor",
+			"Type": "Editor",
+			"Comment": "to make sure that pin factory will be registered before other plugins",
+			"LoadingPhase": "PostConfigInit",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
+}
