@@ -41,11 +41,7 @@ When changes are made to these classes, <b>EasyGas</b> will attempt to preserve 
 
 Note: Even with <b>EasyGas</b> installed, you can always revert to the standard GAS editors without rebooting by disabling the plugin in the settings (Project -> Plugins -> EasyGas). 
 
-# About Developers
-A little bit about us.
-My wife and I have been involved in development for quite some time: she for about 10 years, and I for over 20.
-We have experience working with various frameworks and languages, and working with Unreal Engine (and GAS) has proven to be particularly exciting for us.
-
 # Contact
-Email: easygasplugin@gmail.com
-We welcome any feedback!
+Email: agapov.yi@gmail.com
+
+Welcome any feedback!
