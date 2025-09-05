@@ -32,6 +32,8 @@ When editing modifiers in GE (example of implementing the gameplay effect ‘dam
 
 ![GE_DoT](./Docs/GE_DoT.png "Damage over time")
 
+⚠️Warning: Due to the implementation of GameplayAttribute, it may not be safe to delete an AttributeSet that is used somewhere. I plan to add tools for safely deleting and renaming attributes and AttributeSets in future updates.
+
 <i>Note</i>: <b>EasyGas</b> tries to use different colours for different `AttributeSet`'s to visually separate them
 
 # Settings
