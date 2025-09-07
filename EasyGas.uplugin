@@ -15,6 +15,7 @@
 	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
 	"Installed": false,
+	"MarketplaceURL": "com.epicgames.launcher://ue/Fab/product/d264d486-869e-4c4c-a5a2-29874d3bc3e1",
 	"Modules": [
 		{
 			"Name": "EasyGasEditor",
@@ -24,6 +25,11 @@
 				"Engine",
 				"GameplayAbilities",
 				"GameplayAbilitiesEditor"
+			],
+			"PlatformAllowList":
+			[
+				"Win64",
+				"Mac"
 			]
 		},
 		{
@@ -33,7 +39,18 @@
 			"LoadingPhase": "PostConfigInit",
 			"AdditionalDependencies": [
 				"Engine"
+			],
+			"PlatformAllowList":
+			[
+				"Win64",
+				"Mac"
 			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "GameplayAbilities",
+			"Enabled": true
 		}
 	]
 }

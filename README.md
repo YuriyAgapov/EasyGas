@@ -13,9 +13,14 @@ If the plugin proves to be in demand, We plan to develop it further. I have many
 - [Contact](#Contact)
 
 # How to Install
-To install <b>EasyGas</b>, clone the [EasyGas](https://github.com/YuriyAgapov/EasyGas.git) repository or download the [ZIP archive](https://github.com/YuriyAgapov/EasyGasPlugin/archive/refs/heads/main.zip) and unpack into your project's `Plugins` directory.
+There are 3 ways to install <b>EasyGas</b>
+1. Instal with [Fab](https://www.fab.com/listings/d264d486-869e-4c4c-a5a2-29874d3bc3e1)
+2. clone the [EasyGas](https://github.com/YuriyAgapov/EasyGas.git) repository into your project's `Plugins` directory.
+3. download the [ZIP archive](https://github.com/YuriyAgapov/EasyGasPlugin/archive/refs/heads/main.zip) and unpack into your project's `Plugins` directory.
 
 # How to Use
+There is a [video](https://www.youtube.com/watch?v=TmInIqnokQ0) on YouTube with instructions.
+
 To work with GAS attributes, it is now sufficient to create an `AttributeSet` with the necessary attributes (`GameplayAttributeData`) and compile it.
 
 ![AttributeSet](./Docs/AttributeSet.png "Custom AttributeSet")
