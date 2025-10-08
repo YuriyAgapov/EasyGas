@@ -18,6 +18,20 @@
 	"MarketplaceURL": "com.epicgames.launcher://ue/Fab/product/d264d486-869e-4c4c-a5a2-29874d3bc3e1",
 	"Modules": [
 		{
+			"Name": "EasyGasCore",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"GameplayAbilities"
+			],
+			"PlatformAllowList":
+			[
+				"Win64",
+				"Mac"
+			]
+		},
+		{
 			"Name": "EasyGasEditor",
 			"Type": "Editor",
 			"LoadingPhase": "PreDefault",

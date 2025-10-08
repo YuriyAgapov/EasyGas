@@ -2,6 +2,7 @@
 	"BuildId": "43139311",
 	"Modules": 
 	{
+		"EasyGasCore": "UnrealEditor-EasyGasCore.dll",
 		"EasyGasEditor": "UnrealEditor-EasyGasEditor.dll",
 		"EasyGasGraphEditor": "UnrealEditor-EasyGasGraphEditor.dll"
 	}
