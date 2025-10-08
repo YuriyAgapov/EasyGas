@@ -1,10 +1,10 @@
 {
 	"FileVersion": 3,
-	"Version": 1,
-	"VersionName": "0.1.0",
+	"Version": 2,
+	"VersionName": "0.2.0",
 	"FriendlyName": "EasyGas",
 	"Description": "",
-	"Category": "Editor",
+	"Category": "Gameplay",
 	"CreatedBy": "Yuriy Agapov",
 	"CreatedByURL": "",
 	"DocsURL": "",
