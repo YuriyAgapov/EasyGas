@@ -1,0 +1,17 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Development\\EasyGasCore\\Module.EasyGasCore.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\EasyGasCore\\EasyGasAttribute.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\EasyGasCore\\EasyGasAttributeBindingRule.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\EasyGasCore\\EasyGasAttributeClampRule.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\EasyGasCore\\EasyGasAttributeNotifier.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\EasyGasCore\\EasyGasAttributeRuleBase.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\EasyGasCore\\EasyGasAttributeRule_BP.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\EasyGasCore\\EasyGasAttributeSet.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\EasyGasCore\\EasyGasCoreModule.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\EasyGasCore\\EasyGasValueSource.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\EasyGasCore\\GameplayAttributeUtils.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\EasyGasCore\\EasyGasAttributeRangeRuleTest.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Development\\EasyGasCore\\EasyGasAttributeSetTestFixture.cpp.obj"
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\EasyGasCore\\Module.EasyGasCore.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\EasyGasCore\\EasyGasAttribute.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\EasyGasCore\\EasyGasAttributeBindingRule.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\EasyGasCore\\EasyGasAttributeClampRule.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\EasyGasCore\\EasyGasAttributeNotifier.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\EasyGasCore\\EasyGasAttributeRuleBase.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\EasyGasCore\\EasyGasAttributeRule_BP.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\EasyGasCore\\EasyGasAttributeSet.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\EasyGasCore\\EasyGasCoreModule.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\EasyGasCore\\EasyGasValueSource.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\EasyGasCore\\GameplayAttributeUtils.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\EasyGasCore\\EasyGasAttributeRangeRuleTest.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\EasyGasCore\\EasyGasAttributeSetTestFixture.cpp.obj"
+	]
+}

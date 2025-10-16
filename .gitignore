@@ -5,7 +5,6 @@
 *.slo
 *.lo
 *.o
-*.obj
 
 # Precompiled Headers
 *.gch
@@ -66,8 +65,8 @@ Build/*/**
 Saved/*
 
 # Compiled source files for the engine to use
-Intermediate/*
-Plugins/**/Intermediate/*
+__Intermediate/*
+Plugins/**/__Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
