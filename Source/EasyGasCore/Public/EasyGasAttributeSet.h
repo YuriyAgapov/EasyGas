@@ -24,6 +24,8 @@ class EASYGASCORE_API UEasyGasAttributeSet : public UAttributeSet
 public:
 	// begin UObject
 	virtual void PostInitProperties() override;
+	virtual void PreNetReceive() override;
+	virtual void PostNetReceive() override;
 	// end UObject
 
 	// begin UAttributeSet
@@ -49,4 +51,11 @@ private:
 	FEasyGasAttributeNotifier Notifier;
 
 	mutable TSet<FString> AttributeChangeList;
+
+	struct FPropertySnapshot
+	{
+		FStructProperty* Property = nullptr;
+		FGameplayAttributeData OldValue;
+	};
+	TMap<FName, FPropertySnapshot> Snapshots;
 };

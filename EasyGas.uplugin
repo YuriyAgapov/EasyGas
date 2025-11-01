@@ -1,63 +1,56 @@
 {
 	"FileVersion": 3,
 	"Version": 2,
-	"VersionName": "0.2.1",
+	"VersionName": "0.2.2",
 	"FriendlyName": "EasyGas",
 	"Description": "",
 	"Category": "Gameplay",
 	"CreatedBy": "Yuriy Agapov",
 	"CreatedByURL": "",
 	"DocsURL": "",
+	"MarketplaceURL": "com.epicgames.launcher://ue/Fab/product/d264d486-869e-4c4c-a5a2-29874d3bc3e1",
 	"SupportURL": "",
 	"EngineVersion": "5.6.0",
-	"EnabledByDefault": true,
 	"CanContainContent": true,
-	"IsBetaVersion": false,
-	"IsExperimentalVersion": false,
-	"Installed": false,
-	"MarketplaceURL": "com.epicgames.launcher://ue/Fab/product/d264d486-869e-4c4c-a5a2-29874d3bc3e1",
+	"Installed": true,
 	"Modules": [
 		{
 			"Name": "EasyGasCore",
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac"
+			],
 			"AdditionalDependencies": [
 				"Engine",
 				"GameplayAbilities"
-			],
-			"PlatformAllowList":
-			[
-				"Win64",
-				"Mac"
 			]
 		},
 		{
 			"Name": "EasyGasEditor",
 			"Type": "Editor",
 			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac"
+			],
 			"AdditionalDependencies": [
 				"Engine",
 				"GameplayAbilities",
 				"GameplayAbilitiesEditor"
-			],
-			"PlatformAllowList":
-			[
-				"Win64",
-				"Mac"
 			]
 		},
 		{
 			"Name": "EasyGasGraphEditor",
 			"Type": "Editor",
-			"Comment": "to make sure that pin factory will be registered before other plugins",
 			"LoadingPhase": "PostConfigInit",
-			"AdditionalDependencies": [
-				"Engine"
-			],
-			"PlatformAllowList":
-			[
+			"PlatformAllowList": [
 				"Win64",
 				"Mac"
+			],
+			"AdditionalDependencies": [
+				"Engine"
 			]
 		}
 	],
