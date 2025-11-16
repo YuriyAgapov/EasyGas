@@ -1,7 +1,7 @@
 {
 	"FileVersion": 3,
 	"Version": 2,
-	"VersionName": "0.2.2",
+	"VersionName": "0.2.3",
 	"FriendlyName": "EasyGas",
 	"Description": "",
 	"Category": "Gameplay",
@@ -10,7 +10,6 @@
 	"DocsURL": "",
 	"MarketplaceURL": "com.epicgames.launcher://ue/Fab/product/d264d486-869e-4c4c-a5a2-29874d3bc3e1",
 	"SupportURL": "",
-	"EngineVersion": "5.6.0",
 	"CanContainContent": true,
 	"Installed": true,
 	"Modules": [
